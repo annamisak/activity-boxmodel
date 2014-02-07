@@ -64,11 +64,6 @@ h1 {
     text-shadow: 3px 2px 0px #e5e5e5;
 }
 
-h1 + p {
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
 h2 {
     font-size: 2rem;
     font-weight: normal;
@@ -81,14 +76,27 @@ h2 {
     text-shadow: 3px 2px 0px #fff;
 }
 
-hr {
-    border: solid 2px #79c2d4;
-} 
+h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin: .3rem 0;
+}
 
 p {
     font-size: .90rem;
     line-height: 1.5rem;
     margin: 0 0 1.2rem;
+}
+
+li {
+    font-size: .90rem;
+    line-height: 1.5rem;
 }
 
 figure {
@@ -99,6 +107,7 @@ figure {
 figcaption {
     font-size: .75rem;
     margin: .5rem 0 0;
+    text-align: center;
 }
 
 footer {
