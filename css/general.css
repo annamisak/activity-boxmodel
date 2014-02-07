@@ -58,9 +58,10 @@ article {
 h1 {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 3.3rem;
+    font-weight: normal;
+    letter-spacing: -3px;
     margin: 1.5rem 0;
     line-height: 3.3rem;
-    font-weight: normal;
 }
 
 h1 + p {
